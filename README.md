@@ -20,7 +20,7 @@ Instantiate the class to use the API
  - `tree.search(item)` - Verify the presence of item in tree
  - `tree.delete(item)` - Delete item from the tree
  ## Resources
- To learn more about LLRB trees, you can see my poster [here](www.github.com/muneebaslam/LLRB/blob/poster.pdf).
+ To learn more about LLRB trees, you can see my poster [here](poster.pdf).
  ## Reference
  [https://www.cs.princeton.edu/~rs/talks/LLRB/RedBlack.pdf](https://www.cs.princeton.edu/~rs/talks/LLRB/RedBlack.pdf)
  ## License
