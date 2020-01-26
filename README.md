@@ -1,5 +1,6 @@
 # Left Leaning Red Black Trees
 This is an implementation of LLRB trees in python. LLRB are self-balancing binary search trees that offer worst-case guarantees for insertion, deletion and search operations.
+
 | **Operation** | **Worst Case** |
 |--|--|
 | Insert | O(log N) |
