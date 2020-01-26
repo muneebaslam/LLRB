@@ -1,7 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[131]:
+# 1 / True represents RED
+# 0 / False represents BLACK
 
 
 class Node:
@@ -34,8 +32,7 @@ class LLRB:
         if root.left and root.left.color and root.left.left and root.left.left.color:
             root = self.rotateRight(root)
         if root.right and root.right.color and root.left and root.left.color:
-            root = self.colorFlip(root)
-        
+            root = self.colorFlip(root)  
         return root
     
     def rotateLeft(self, node):
@@ -143,7 +140,6 @@ class LLRB:
             
 
 
-# In[ ]:
 
 
 
